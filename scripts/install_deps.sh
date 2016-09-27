@@ -366,6 +366,9 @@ case $(uname -s) in
                 cmake .. -DCOMPILE_TESTS=NO
                 make
                 sudo make install
+if !(grep -q '/usr/local/lib' /etc/ld.so.conf.d/*); then
+        echo "/usr/local/lib">>/etc/ld.so.conf.d/local.conf 
+fi
                 sudo ldconfig
                 cd ../..
 
