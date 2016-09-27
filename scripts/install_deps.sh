@@ -355,7 +355,9 @@ case $(uname -s) in
 
                 # Build libjsonrpccpp-v0.6.0 from source.
                 # Rationale for this is given in the Ubuntu comments lower down this file.
-                sudo apt-get -y install libargtable2-dev libedit-dev
+		sudo dnf install argtable-devel
+		sudo dnf install libedit-devel
+		sudo dnf install mesa-libGL-devel
                 git clone git://github.com/cinemast/libjson-rpc-cpp.git
                 cd libjson-rpc-cpp
                 git checkout v0.6.0
