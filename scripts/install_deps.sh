@@ -357,7 +357,8 @@ case $(uname -s) in
 		    mesa-libGL-devel \
 		    mesa-libOpenCL \
 		    libmicrohttpd-devel \
-		    doxygen
+		    doxygen \
+		    jsoncpp-devel
 
                 # Build libjsonrpccpp-v0.6.0 from source.
                 # Rationale for this is given in the Ubuntu comments lower down this file.
