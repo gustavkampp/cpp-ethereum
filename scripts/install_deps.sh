@@ -351,13 +351,13 @@ case $(uname -s) in
                     libtool \
                     mesa-dri-drivers \
                     miniupnpc-devel \
-                    snappy-devel
+                    snappy-devel \
+		    argtable-devel \
+		    libedit-devel \
+		    mesa-libGL-devel
 
                 # Build libjsonrpccpp-v0.6.0 from source.
                 # Rationale for this is given in the Ubuntu comments lower down this file.
-		sudo dnf install argtable-devel
-		sudo dnf install libedit-devel
-		sudo dnf install mesa-libGL-devel
                 git clone git://github.com/cinemast/libjson-rpc-cpp.git
                 cd libjson-rpc-cpp
                 git checkout v0.6.0
