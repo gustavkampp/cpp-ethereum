@@ -355,6 +355,7 @@ case $(uname -s) in
 		    argtable-devel \
 		    libedit-devel \
 		    mesa-libGL-devel \
+		    mesa-libOpenCL \
 		    libmicrohttpd-devel \
 		    doxygen
 
