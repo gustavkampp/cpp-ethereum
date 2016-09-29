@@ -354,7 +354,9 @@ case $(uname -s) in
                     snappy-devel \
 		    argtable-devel \
 		    libedit-devel \
-		    mesa-libGL-devel
+		    mesa-libGL-devel \
+		    libmicrohttpd-devel \
+		    doxygen
 
                 # Build libjsonrpccpp-v0.6.0 from source.
                 # Rationale for this is given in the Ubuntu comments lower down this file.
