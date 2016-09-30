@@ -354,8 +354,9 @@ case $(uname -s) in
                     snappy-devel \
 		    argtable-devel \
 		    libedit-devel \
+		    opencl-headers \
 		    mesa-libGL-devel \
-		    mesa-libOpenCL \
+		    mesa-libOpenCL-devel \
 		    libmicrohttpd-devel \
 		    doxygen \
 		    jsoncpp-devel
